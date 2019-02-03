@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<title>Reservations</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="pacific.css" type="text/css">
+		<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+		</script>
+		<![endif]-->
+</head>
+<body>
+<div id="wrapper">
+		<header>
+			<h1>Pacific Trails Resort</h1>
+		</header>
+<nav>
+ <ul>
+	<li><a href="index.html">Home</a> </li>
+	 <li><a href="yurts.html">Yurts</a> </li>
+	 <li><a href="activities.html">Activities</a> </li>
+	 <li><a href="reservations.html">Reservations</a></li>
+</ul>
+  
+</nav>
+		<main>
+			<h2>Reservations at Pacific Trails</h2>
+			<h3> Contact US </h3>
+			<p>Required information is marked with an asterisk (*).</p>
+			<form method="post" action="http://webdevbasics.net/scripts/demo.php">
+			
+			<label for="FirstName">*First Name:</label>
+			<input type="text" name ="myFname" id="FirstName" autofocus 
+			required="required" placeholder="your first name" >
+			
+			<label for="LastName">*Last Name:</label>
+			<input type="text" name="myLName" id="LastName"
+			required="required" placeholder="your last name" >
+			
+			<label for="E-mail">*E-mail:</label>
+			<input type="email" name="myEmail" id="E-mail"
+			required="required" placeholder="you@yourdomain.com" >
+
+			<label for="Phone">Phone:</label>
+			<input type="tel" name="myPhone" id="Phone" >
+
+			<label for="ArrivalDate">Arrival Date:</label> 
+			<input type="date" name="ArrivalDate" id="ArrivalDate" >
+			
+			<label for="myChoice">Nights:</label>
+			<input type="number" name="myChoice" id="myChoice" min="1" max="14">
+			
+			<label for="Comments">*Comments:</label>
+			<textarea name="myComments" id="Comments" rows="2" cols="20"
+			required="required" placeholder="your comments" ></textarea>
+			
+			<input id="mySubmit" type="submit" value="Submit" >
+			</form>
+			
+			
+		</main>
+		
+<footer>
+  Copyright &copy; 2014 Pacific Trails Resort<br>
+  <small><i> tessnowramirez@tessnowramirez.com </i></small>
+</footer>
+</div>
+</body>
+</html>
+<!-- Step 10 page 430 -->
+
+<!-- 
+ <label for="myName">*Name:</label>
+  <input type="text" name="myName" id="myName"
+  required="required" placeholder="your first and last name">
+  <label for="myEmail">*E-mail:</label>
+  <input type="email" name="myEmail" id="myEmail"
+  required="required" placeholder="you@yourdomain.com">
+  <label for="myRating">Rating (1 - 10):</label>
+<input type="range" name="myRating" id="myRating"
+min="1" max="10">
+  <label for="myComments">*Comments:</label>
+  <textarea name="myComments" id="myComments" rows="2" cols="20" required="required"></textarea>
+  <input id="mySubmit" type="submit" value="Submit"> <textarea name="myComments" id="myComments" rows="2" cols="20" required="required"></textarea>
+  <input id="mySubmit" type="submit" value="Submit">
+</form>
+-->
+
+
+
